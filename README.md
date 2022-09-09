@@ -19,6 +19,7 @@ Smart Audio Player has totally three functions: Playing the specified sound file
 
 - Start playing file. Press the "PLAY" button and the watch will repeatedly play the specified sound file. Meanwhile, the timestamp when you click the button will be logged on the watch's screen.
 - Start playing chirp. Enter the start frequency, end frequency, and the duration of the chirp. Then press "CHIRP" button and the watch will repeatedly play the chirp sound signal.
+- The timestamp when you press the "PLAY" or "CHIRP" button will be logged into the local file, whose path is `/Android/data/com.example.new_smart_player/normal.txt` or `/Android/data/com.example.new_smart_player/chrip.txt`, respectively.
 - Stop: Press the "Stop" button and the player will stop playing the sound.
 
 ## About us
